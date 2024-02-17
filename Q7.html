@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q no.7</title>
+    <style>
+        h1{
+    text-align: center;
+    background-color: #5f5c5c;
+    color: white;
+}
+.container{
+    position: relative;
+}
+.box{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    margin-left: 5%;
+    color: #ff0080;
+    border: 1px solid black;
+}
+.box-1{
+    background-color: #05eca7e5;
+}
+.box-2{
+    background-color: #c81bb1;
+    left: 60px;
+    top: 60px;
+}
+.box-2:hover{
+   z-index: 999;
+    transition: 1s;
+}
+.box-3{
+    background-color: #e8002e;
+    left: 110px;
+    top: 110px;
+}
+.box-1:hover{
+    z-index: 999;
+     transition: 1s;
+}
+
+.down{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    color: #ff0080;
+    border: 1px solid rgb(66, 63, 63);
+    margin-top: 25%;
+    margin-left: 5%;
+}
+.box-4{
+    background-color: #05ec09e5;
+}
+.box-4:hover{
+    z-index: 999;
+     transition: 1s;
+ }
+.box-5{
+    background-color: #4a1cd4;
+    left: 60px;
+    top: 60px;
+    z-index: 1;
+}
+
+.box-6{
+    background-color: #37cdff;
+    left: 110px;
+    top: 110px;
+}
+.box-6:hover{
+    z-index: 999;
+     transition: 1s;
+}
+    </style>
+</head>
+<body>
+    <h1>Hover to Unveil The Pokemon</h1>
+    <div class="container">
+        <div class="box box-1"><img src="./chatboat.png"></div>
+        <div class="box box-2"><img src="./chatboat.png"></div>
+        <div class="box box-3"><img src="./chatboat.png"></div>
+    </div>
+    
+    
+    <div class="container">
+        <div class="down box-4"><img src="./chatboat.png"></div>
+        <div class="down box-5"><img src="./chatboat.png"></div>
+        <div class="down box-6"><img src="./chatboat.png"></div>
+    </div>
+</body>
+</html>
